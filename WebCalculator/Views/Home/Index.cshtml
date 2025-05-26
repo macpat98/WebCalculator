@@ -4,28 +4,26 @@
 
 <div class="card mt-5">
     @Html.TextBox("ScreenInput", 123321, new { @class = "calculator-screen", disabled = "disabled" })
-    
-    <div>
+    <div class="calculator-btns">
         <button type="button" class="btn bg-success">7</button>
         <button type="button" class="btn bg-success">8</button>
         <button type="button" class="btn bg-success">9</button>
-        <button type="button" class="btn bg-success">/</button>
-        <button type="button" class="btn bg-success">+</button>
-        
+        <button type="button" class="btn bg-secondary">/</button>
+        <button type="button" class="btn bg-secondary">+</button>
+
         <button type="button" class="btn bg-success">4</button>
         <button type="button" class="btn bg-success">5</button>
         <button type="button" class="btn bg-success">6</button>
-        <button type="button" class="btn bg-success">-</button>
-        
+        <button type="button" class="btn bg-secondary">-</button>
+
         <button type="button" class="btn bg-success">1</button>
         <button type="button" class="btn bg-success">2</button>
         <button type="button" class="btn bg-success">3</button>
-        <button type="button" class="btn bg-success">*</button>
-        <button type="button" class="btn bg-success">=</button>
-        
+        <button type="button" class="btn bg-secondary">*</button>
+        <button type="button" class="btn bg-primary">=</button>
+
         <button type="button" class="btn bg-success">0</button>
         <button type="button" class="btn bg-success">,</button>
-        <button type="button" class="btn bg-success">C</button>
-        
+        <button type="button" class="btn bg-danger">C</button>
     </div>
 </div>
